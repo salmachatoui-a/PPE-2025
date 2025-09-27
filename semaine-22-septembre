@@ -52,6 +52,8 @@ git push -u origin main
 error: unable to read askpass response from '/usr/bin/ksshaskpass'
 Password for 'https://salmachatoui-a@github.com': 
 
+github = probleme d'authentification avec le l'utilisateur  + clé ssh
+mais apres avoir suivi les instructions sur github j'ai pu generer une clé /'token' pour que le git local puisse se connecter au github et pouvoir 
 
 
 
