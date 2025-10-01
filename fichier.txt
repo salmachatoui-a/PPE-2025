@@ -1,0 +1,263 @@
+    1  sudo echo "hello"
+    2  passwd
+    3  sudo echo "hello"
+    4  bah
+    5  bash
+    6  sudo echo hello
+    7  apt update
+    8  apt upgrade
+    9  sudo apt update 
+   10  sudo apt upgrade
+   11  sudo apt install build-essential htop vim helix
+   12  snap install hx
+   13  sudo apt install hx
+   14  sudo apt install build-essential htop vim
+   15  uv tool install jupyterlab
+   16  sudo snap install astral-uv
+   17  curl -LsSf https://astral.sh/uv/install.sh | sh
+   18  sudo apt update 
+   19  sudo update 
+   20  sudo apt update
+   21  sudo apt upgrade 
+   22  apt install build-essential htop vim helix
+   23  sudo apt install build-essentil htop vim helix
+   24  curl -LsSf https://astral.sh/uv/install.sh | sh
+   25  wget -qO- https://astral.sh/uv/install.sh | sh
+   26  uv tool install jupyterlab
+   27  sudo snap install astral-uv
+   28  sudo snap install astral-uv --classic
+   29  uv tool install jupiterlab
+   30  uv tool install jupyterlab
+   31  jupyter-lab
+   32  jupyterlab
+   33  uv tool update-shell
+   34  jupyter-lab
+   35  apt search praat
+   36  uv tool install build essential htop
+   37  htop
+   38  echo $path
+   39  echo bonjour
+   40  echo $path
+   41  jupyterlab
+   42  jupyter-lab
+   43  aptsearch praat
+   44  apt search praat
+   45  apt show praat 
+   46  apt update
+   47  sudo apt update
+   48  apt install praat 
+   49  sudo apt  install praat 
+   50  praat
+   51  gedix
+   52  gedit
+   53  nano
+   54  snap install codium --classic
+   55  sudo apt install codium
+   56  sudo apt update && sudo apt install codium
+   57  snap install vscodium
+   58  sudo apt update && sudo apt install codium
+   59  sudo apt update 
+   60  sudo apt install codium
+   61  snap install codium
+   62  sudo apt update 
+   63  sudo apt install codium 
+   64  [200~wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg 
+   65  echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list 
+   66  codium
+   67  ls ~/
+   68  ../
+   69  dev
+   70  dev/
+   71  ./
+   72  python3 ./eduroam-linux-UP3-SN-Universite_Sorbonne_Nouvelle_-_Paris_3.py 
+   73  ls
+   74  ls/tmp/systemd*
+   75  clear
+   76  ls/tmp/systemd*upower*
+   77  clear
+   78  ls/usr
+   79  ls/usr/bin
+   80  clear
+   81  tree -d -L 2 /usr
+   82  sudo snap install tree
+   83  tree -d -L 2 /usr
+   84  clear
+   85  man tree
+   86  man
+   87  man tree
+   88  ls
+   89  man ls
+   90  ls -- help
+   91  man tree
+   92  man ls
+   93  clar
+   94  clear
+   95  ssh-keygen -t ed25519
+   96  ls
+   97  ls -a
+   98  ls.ssh
+   99  ls .ssh
+  100  eval "$(ssh-agent -s)"
+  101  ssh -add ~/.ssh/id_ed25519
+  102  ssh-add ~/.ssh/id_ed25519
+  103  jupyter-lab
+  104  jupyter
+  105  jupyterlab
+  106  jupyter-lab
+  107  codium
+  108  pycharm
+  109  VIM
+  110  vim
+  111  sudo snap install pycharm-community --classic
+  112  pycharm-community
+  113  codium
+  114  jupiter-lab
+  115  jupyter-lab
+  116  sudo apt install onboard
+  117  onboard
+  118  onboard --help
+  119  sudo snap install thonny
+  120  thonny
+  121  mkdir Journal-de-bord-individuel-PPE
+  122  ls
+  123  cd Journal-de-bord-individuel-PPE/
+  124  echo "# Journal-de-bord-individuel-PPE" >> README.md
+  125  git init
+  126  git add README.md
+  127  git commit -m "first commit"
+  128  git branch -M main
+  129  git remote add origin https://github.com/salmachatoui-a/Journal-de-bord-individuel-PPE.git
+  130  git push -u origin main
+  131  cat ~/.ssh/id_ed25519
+  132  ls ~/.ssh/
+  133  cat ~/.ssh/id_ed25519.pub
+  134  git push -u origin main
+  135  ssh -T git@github.com
+  136  # Attempts to ssh to GitHub
+  137  git push -u origin main
+  138  git config --local core.sshCommand "/usr/bin/ssh -i /home/.ssh/id_ed25519"
+  139  git push -u origin main
+  140  pwd
+  141  cd ~/.ssh/
+  142  pwd
+  143  git config --local core.sshCommand "/usr/bin/ssh -i /home/salmach/.ssh/id_ed25519"
+  144  cd
+  145  cd Journal-de-bord-individuel-PPE/
+  146  git config --local core.sshCommand "/usr/bin/ssh -i /home/salmach/.ssh/id_ed25519"
+  147  git push -u origin main
+  148  nano ~/.ssh/config
+  149  git push -u origin main
+  150  nano ~/.ssh/config
+  151  git push -u origin main
+  152  ssh -T git@github.com
+  153  git pull
+  154  git push -u origin main
+  155  rm /home/salmach/.kde/share/apps/kwallet/kdewallet.kwl
+  156  which kdewallet
+  157  ls ~/.local/share/kwalletd/kdewallet.kwl 
+  158  rm ~/.local/share/kwalletd/kdewallet.kwl 
+  159  git push -u origin main
+  160  git remote add origin https://github.com/salmachatoui-a/Journal-de-bord-individuel-PPE.git
+  161  git push -u origin main
+  162  gl
+  163  git pull
+  164  ls ~/.ssh/
+  165  ssh -T -p 443 git@ssh.github.com
+  166  eval "$(ssh-agent -s)"
+  167  ssh-add $HOME/.ssh/id_ed25519
+  168  .ssh/id_ed25519
+  169  ls
+  170  cat  /home/salmach/.ssh/id_ed25519 
+  171  cat  /home/salmach/.ssh/id_ed25519.pub
+  172  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIACkfvBRGhQUB59RWSvmtnUN12actt/saemZy82UCUEO salmach@beeboop
+  173  git clone git@github.com:YoannDupont/PPE1-2526.git
+  174  cd PPE1-2526
+  175  git pull
+  176  sudo snap install tesseract-ocr
+  177  sudo apt install tesseract-ocr
+  178  tesseract-ocr
+  179  tesseract--version
+  180  tesseract --version
+  181  /usr/local/share/tessdata/
+  182  cd/usr/local/share/tessdata
+  183  ls
+  184  cd/usr/share/tessract-ocr/
+  185  cd /usr/share/tessract-ocr/
+  186  cd usr/share/tessract-ocr/
+  187  tessdata
+  188  cd /usr/share/tessract -ocr/
+  189  cd /usr/share/tesseract -ocr/
+  190  cd/usr/share/tesseract-ocr/
+  191  dpkg -L tesseract-ocr 
+  192  /usr/share/doc/tesseract-ocr/  
+  193  cd usr/local/share/tessdata
+  194  cd usr/local/share/tessdata/
+  195  cd /usr/share/tesseract-ocr/
+  196  ls
+  197  ls cd /usr/share/tesseract-ocr/
+  198  ls cd /usr/share/tesseract-ocr/5/tessdata
+  199  cd  /usr/share/tesseract-ocr/5/tessdata
+  200  sudo mv /home/salmach/Téléchargements/hin.trainddata .
+  201  sudo mv /home/salmach/Téléchargements/hin.traineddata .
+  202  ls
+  203  cd ~/Exercie1
+  204  cd ~/Exercice1
+  205  cp ~/Téléchargements/archive-48.zip .
+  206  unzip archive-48.zip
+  207  cd ~/Exercice1
+  208  pwd
+  209  ls -la
+  210  mkdir -p txt img docs
+  211  ls -ld txt img docs
+  212  mv *.txt txt/
+  213  mv *.jpg *.png *.jpeg img/
+  214  mv *.pdf *.doc *.docx docs/
+  215  ls 
+  216  ls docs 
+  217  ls
+  218  mv *.jpg img
+  219  mv *.Jpg img
+  220  mv *.JPG img
+  221  mv *.svg img
+  222  ls 
+  223  mv *.gif img 
+  224  mv *.PNG img 
+  225  mkdir ann 
+  226  mv *.ann ann
+  227  ls
+  228  mv *.GIF img 
+  229  mv *webp img 
+  230  ls
+  231  mv *.odt doc
+  232  ls 
+  233  rm archive-48.zip 
+  234  ls 
+  235  ann 
+  236  cd ann
+  237  mkdir 2016 2017 2018 
+  238  mv  2016*.ann 
+  239  mv  2016*.ann  2016
+  240  ls 2016
+  241  mv  2017*.ann  2017
+  242  ls 2017
+  243  mv  2018*.ann  2018
+  244  ls 2018
+  245  cd 2016
+  246  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  247* 
+  248  ann
+  249  cd ..
+  250  cd 2017
+  251  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  252  cd ..
+  253  cd 2018
+  254  mkdir 01 02 03 04 05 06 07 08 09 10 11 12
+  255  cd ..
+  256  history
+  257* echo ok 
+  258  echo ok > fichier.txt
+  259  cat fichier.txt 
+  260  nano fichier.txt 
+  261  rm fichier.txt 
+  262  Exercice1 > fichier.txt
+  263  history > fichier.txt
