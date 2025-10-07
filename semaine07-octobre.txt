@@ -1,0 +1,29 @@
+j'ai appris a utiliser git tag , j'ai voulu creer un deuxième tag et modifier le nom du tag.ex: VO "mon premier tag" to "mon tag"
+  
+  
+  
+  343  cd Journal-de-bord-individuel-PPE/
+  344  git tag --help
+  345  git tag -a v1 d0d19174d2b785dfbf0d33ff72a9acaa6749733c -m "Mon premier tag"
+  346  git tag -a v1 d0d1917 -m "Mon premier tag"
+  347  git tag --help
+  348  git tag -a -m "mon premier commit" v1  d0d1917
+  349  git tag -a -m "mon premier commit" v1  d0d19174d2b785dfbf0d33ff72a9acaa6749733c
+  350  git log
+  351  git stqtus
+  352  git status
+  353  git fetch
+  354  git status
+  355  git pull
+  356  git tag -a -m "mon premier commit" v1  d0d19174d2b785dfbf0d33ff72a9acaa6749733c
+  357  git push
+  358  git status 
+  359  git push --tag
+  360  git tag -a -m "mon premier tag" v1  d0d19174d2b785dfbf0d33ff72a9acaa6749733c
+  361  git tag -a -m "mon premier tag " v0  1766f5b57bf782c937f3d471246b156d4e5ebe18
+  362  git push --tag 
+  363  git status 
+  364  git tag -d v0
+  365  git tag -a -m "mon tag  " v0  1766f5b57bf782c937f3d471246b156d4e5ebe18
+  366  git push --tag
+  367  git push --tag --force 
