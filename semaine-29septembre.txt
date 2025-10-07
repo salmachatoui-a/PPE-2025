@@ -1,4 +1,5 @@
-
+Dans cet exercice j'ai appris a faire une arboresence ( absolu et relative ) 
+et à afficher une chaîne de caractère avec la commande echo. 
   202  ls
   203  cd ~/Exercie1
   204  cd ~/Exercice1
