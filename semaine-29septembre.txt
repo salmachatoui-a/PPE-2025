@@ -61,3 +61,5 @@
   261  rm fichier.txt 
   262  Exercice1 > fichier.txt
   263  history > fichier.txt
+
+
