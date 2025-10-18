@@ -1,0 +1,12 @@
+#!/bin/bash
+
+CHEMIN="$HOME/PPE-2025/Exercice1/ann"
+
+for ANNEE in 2016 2017 2018
+do
+    echo "Nombre de lieux en $ANNEE : $NB_LIEUX"
+    grep "Location" "$CHEMIN/$ANNEE"/*/*.ann | wc -l
+
+done
+
+
