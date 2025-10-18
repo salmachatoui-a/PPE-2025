@@ -1,6 +1,8 @@
 #!/bin/bash
 
 CHEMIN="$HOME/PPE-2025/Exercice1/ann"
+NB_LIEUX=$1
+ANNEE=$2
 
 for ANNEE in 2016 2017 2018
 do
