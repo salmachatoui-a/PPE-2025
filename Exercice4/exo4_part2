@@ -23,4 +23,4 @@ done < $FICHIER_URLS # fin boucle while
 echo " $OK URLs et $NOK lignes douteuses "
 #imprime le texte
 
-#je prense que ce code permet de parcourir une liste de URL dans un fichier et de dire si oui ou non c'est un URL valid, et de les comptabiliser
+#je pense que ce code permet de parcourir une liste de URL dans un fichier et de dire si oui ou non c'est un URL valid, et de les comptabiliser
