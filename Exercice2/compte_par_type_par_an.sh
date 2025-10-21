@@ -3,6 +3,12 @@
 
 CHEMIN="$HOME/PPE-2025/Exercice2"
 
+if [ $# -ne 1 ]
+then
+    echo "il faut passer un argument type ! "
+    exit
+fi
+
 
 echo "nombre de $1 en 2016:"
 $CHEMIN/comptes_par_type.sh $1 2016
