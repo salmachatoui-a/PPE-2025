@@ -16,7 +16,8 @@ HTTP=$(curl -s -o /dev/null -w '%{http_code}' "$line")
 ENCODAGE=$(curl -s -o /dev/null -w '%{content_type}' "$line")
 MOTS=$(lynx -dump -nolist "$line" |wc -w );
 
-echo -e " $nbligne \t ${line}\t $HTTP \t $ENCODAGE \t $MOTS";
+echo -e " $nbligne \t ${line}\t $HTTP \t $ENCODAGE \t $MOTS" | >> resultat.tsv ;
 
 nbligne=$( expr $nbligne + 1);
-done < $fichier ;
+done < $fichier;
+
