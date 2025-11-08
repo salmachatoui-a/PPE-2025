@@ -3,14 +3,17 @@ séparées par des tabulations :
 
 
 1. le code HTTP de réponse à la requête
+curl = permet de recuperer le contenu d'une page web.
 HTTP=$(curl -s -o /dev/null -w '%{http_code}' "$line")
-j'ai mis cette commande dans ma boucle, -s permet mettre en sliencieux -o /dev/null permet de rediriger l'output = contenu du lien pour ne pas les avoir afficher sur mon terminal -w '%{http_code}= cela fait comprendre que je souhaite recuperer ce qu'il y a apres ce qui est ici specifié dans mes acolades, et donc recuperer le code HTTP.{}
+
+j'ai mis cette commande dans ma boucle, -s permet mettre en sliencieux -o /dev/null permet de rediriger l'output dans un trou noir = contenu du lien pour ne pas les avoir afficher sur mon terminal -w '%{http_code}= cela fait comprendre que je souhaite recuperer ce qu'il y a apres ce qui est ici specifié dans mes acolades, et donc recuperer le code HTTP.{}
 
 1.1 les erreurs peuvent être corrigées
 
 
 2. l’encodage de la page, s’il est présent
 j'ai voulu suivre la meme logique que pour le code HTTP 
+
 ENCODAGE=$(curl -s -o /dev/null -w '%{ text/html; charset=}' "$line")
 mais ca ne marche pas.
 en fait charset ce n'etait pas la bone categorie mais plutot ={content_type}
@@ -22,10 +25,14 @@ ensuite ; jrai compris qu'il faut que ce soit aussi stocker dans un paramettre ,
 
 MOTS=$(lynx -dump "$line" | wc -w )
 la je stock mon resultat qui va itereer a c  ens en bas de page donc ce n'est pas correct il faut que j'utilise une autre commande pour qu'elle ne comptabilise pas ces meta données. 
-j'ai ajoute -nolist a -dump pour retirer la liste des liens d'une page à l'affichage. Mais, il ya toujours un probleme, ligne 6 "
+j'ai ajoute -nolist a -dump pour retirer la liste des liens d'une page à l'affichage. 
+Mais, il ya toujours un probleme, ligne 6 "
 lynx : accès impossible au fichier de départ https://roboty.magistry.fr/
  6       https://roboty.magistry.
 fr      0"
-lynx n'arrive pas a lire ce lien, j'ai essaye avec curl et cet url https://roboty.magistry.fr le message que j'ai eu =
-curl: (60) SSL certificate problem: certificate has expired
+lynx n'arrive pas a lire ce lien, j'ai essaye avec curl et cet url https://roboty.magistry.fr 
+le message que j'ai eu = curl: (60) SSL certificate problem: certificate has expired
 More details here: https://curl.se/docs/sslcerts.html
+
+Stoker le resultat dans un fichier .tsv 
+ajouter une pipe qui permet de prendre le resultat de mes commande et de les stocker dans un fichier tsv et '>>' me permet d'ajouter ce contenu dans un nouveau fichier.

@@ -10,7 +10,7 @@ done < $fichier;
 Questions :
 
 1. Pourquoi ne pas utiliser cat ?
-Parce que contrairement au code ci dessus qui permet de lire ligne par ligne le contenu de urls/fr.txt cat va afficher tout le conetenu.
+Parce que contrairement au code ci dessus qui permet de lire ligne par ligne le contenu de urls/fr.txt, cat va afficher tout le conetenu.
 
 2. Comment transformer "urls/fr.txt" en paramètre du script ?
 creer une variable fichier =$1 , et le generaliser.

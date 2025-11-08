@@ -5,19 +5,21 @@ nbligne=1
 
 if [ $# -ne 1 ]
 then
-    echo "il faut un argument ! "
+    echo "le script attend exactement un argument: le chemin vers le fichier d'url. "
     exit
 fi
 
-
+echo  "<table><tr> <th>nombre de lignes</th><th>URL</th><th>code_HTTP</th><th>charset</th><th>nombre de mots</th></tr>"> miniprojet_2.html;
 while read -r line ;
 do
 HTTP=$(curl -s -o /dev/null -w '%{http_code}' "$line")
 ENCODAGE=$(curl -s -o /dev/null -w '%{content_type}' "$line")
 MOTS=$(lynx -dump -nolist "$line" |wc -w );
 
-echo -e " $nbligne \t ${line}\t $HTTP \t $ENCODAGE \t $MOTS" | >> resultat.tsv ;
-
+#echo -e " $nbligne \t ${line}\t $HTTP \t $ENCODAGE \t $MOTS" | >> resultat.tsv  ;
+echo "<tr><td>$nbligne</td><td>${line}</td><td>$HTTP</td><td>$ENCODAGE</td><td>$MOTS</td></tr>">> miniprojet_2.html;
 nbligne=$( expr $nbligne + 1);
+
 done < $fichier;
 
+echo "</table>" >>miniprojet_2.html;
