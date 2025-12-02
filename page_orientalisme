@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orientalisme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css">
+  </head>
+
+  <body>
+    <section class="section has-background-grey">
+      <div class="container has-background-white">
+        <div class="hero has-text-centered">
+          <div class="hero-body">
+            <h1 class="title">
+             Mini projet par salma chatoui
+              <br />
+              <br />
+            </h1>
+          </div>
+        </div>
+        <p> Le but de ce projet est de creer deux pages html, la premiere est de creer un tableu html. La seconde est creer une page html principale qui contient un hyperlien premettant de retrouver ce tableau html.
+        </p>
+        <a href="./orientalisme_fr/orientalismefr.html">lien vers le tableau </a>
+    </section>
+  </body>
+</html>
